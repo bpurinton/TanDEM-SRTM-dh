@@ -1,7 +1,11 @@
 # Difference and Measure SRTM-C and TanDEM-X Tiles
 
+https://zenodo.org/badge/latestdoi/139818255
+
 Benjamin Purinton
+
 purinton[at]uni-potsdam.de
+
 20 June 2018
 
 These Python codes are intended for the correction (co-registration, destriping, block shifting) of raw SRTM-C tiles to raw TanDEM-X tiles and also for the mapping of potential vertical land-level changes in conjunction with TanDEM-X auxiliary rasters. The companion paper is:
