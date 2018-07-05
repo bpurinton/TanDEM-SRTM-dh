@@ -1,6 +1,6 @@
 # Difference and Measure SRTM-C and TanDEM-X Tiles
 
-https://zenodo.org/badge/latestdoi/139818255
+[![DOI](https://zenodo.org/badge/139818255.svg)](https://zenodo.org/badge/latestdoi/139818255)
 
 Benjamin Purinton
 
