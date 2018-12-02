@@ -17,11 +17,11 @@ The scripts assume some knowledge of Python coding and access to the following p
 Below a suggested processing routine:
 
 
-(1) Create a working directory with a folder for SRTM-C tiles ("/path/to/working/directory/srtms/"), TanDEM-X tiles ("/path/to/working/directory/tandems/"), and TanDEM-X auxiliary rasters ("/path/to/working/directory/tandems/auxiliary/") including the water indication mask (WAM), height error mask (HEM) and consistency mask (COM).
+1. Create a working directory with a folder for SRTM-C tiles ("/path/to/working/directory/srtms/"), TanDEM-X tiles ("/path/to/working/directory/tandems/"), and TanDEM-X auxiliary rasters ("/path/to/working/directory/tandems/auxiliary/") including the water indication mask (WAM), height error mask (HEM) and consistency mask (COM).
 
-(2) Make sure all tiles and auxiliary rasters are in WGS84 unprojected geographic coordinates and are of the same resolution and dimensions and place them in the appropriate working directory outlined in (1).
+2. Make sure all tiles and auxiliary rasters are in WGS84 unprojected geographic coordinates and are of the same resolution and dimensions and place them in the appropriate working directory outlined in (1).
 
-(3) Run the scripts in order (01-05) setting the variable names appropriately before running each step. Note the instructions in comments for each variable. Variables can be found in each script at line numbers:
+3. Run the scripts in order (01-05) setting the variable names appropriately before running each step. Note the instructions in comments for each variable. Variables can be found in each script at line numbers:
 
 	(a) 01_coregistration.py - 43-69
 	(b) 02_fft_destriping.py - 33-53
