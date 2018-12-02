@@ -1,13 +1,18 @@
-Benjamin Purinton
-purinton[at]uni-potsdam.de
-20 June 2018
+---
+title: "TanDEM-X, SRTM-C Correction and Differencing"
+date: "June 2018"
+author: "Ben Purinton ([purinton@uni-potsdam.de](purinton@uni-potsdam.de))"
+---
+
+# TanDEM-X, SRTM-C Correction and Differencing
 
 These Python codes are intended for the correction (co-registration, destriping, block shifting) of raw SRTM-C tiles to raw TanDEM-X tiles and also for the mapping of potential vertical land-level changes in conjunction with TanDEM-X auxiliary rasters. The companion paper is:
 
-Purinton, B., and Bookhagen, B.: Measuring Decadal Vertical Land-level Changes from SRTM-C (2000) and TanDEM-X (~2015) in the South-Central Andes, Earth Surface Dynamics, 2018
+Purinton, B., and Bookhagen, B.: Measuring Decadal Vertical Land-level Changes from SRTM-C (2000) and TanDEM-X (~2015) in the South-Central Andes, Earth Surface Dynamics, 2018.
+(https://doi.org/10.5194/esurf-6-971-2018)
 
+# Processing
 The scripts assume some knowledge of Python coding and access to the following packages: numpy, scipy, osgeo (gdal + gdalnumeric), matplotlib, scikit-image.
-
 
 Below a suggested processing routine:
 
