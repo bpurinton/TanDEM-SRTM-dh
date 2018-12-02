@@ -14,6 +14,8 @@ Purinton, B., and Bookhagen, B.: Measuring Decadal Vertical Land-level Changes f
 # Processing
 The scripts assume some knowledge of Python coding and access to the following packages: numpy, scipy, osgeo (gdal + gdalnumeric), matplotlib, scikit-image.
 
+If you have trouble with installing or importing the scripts contact me at (purinton@uni-potsdam.de)
+
 Below a suggested processing routine:
 
 
