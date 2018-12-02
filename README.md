@@ -22,9 +22,8 @@ Below a suggested processing routine:
 2. Make sure all tiles and auxiliary rasters are in WGS84 unprojected geographic coordinates and are of the same resolution and dimensions and place them in the appropriate working directory outlined in (1).
 
 3. Run the scripts in order (01-05) setting the variable names appropriately before running each step. Note the instructions in comments for each variable. Variables can be found in each script at line numbers:
-
-	(a) 01_coregistration.py - 43-69
-	(b) 02_fft_destriping.py - 33-53
-	(c) 03_blocked_shifting.py - 36-61
-	(d) 04_change_mapping_channels.py - 42-80
-	(e) 05_change_mapping_hillslopes.py - 33-62
+    a. 01_coregistration.py - 43-69
+    b. 02_fft_destriping.py - 33-53
+    c. 03_blocked_shifting.py - 36-61
+    d. 04_change_mapping_channels.py - 42-80
+    e. 05_change_mapping_hillslopes.py - 33-62
