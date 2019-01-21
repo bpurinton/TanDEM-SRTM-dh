@@ -330,7 +330,7 @@ else:
             sys.exit()
         
         # calculate dx, dy, dz from fit parameters after Nuth and Kääb (2011)
-        # note dy is negative since we go from geographic to matrix operations
+        # +dy=N, +dx=E, -dy=S, -dx=W
         dx = np.cos(np.deg2rad(fit[1])) * fit[0]
         dy = np.sin(np.deg2rad(fit[1])) * fit[0]
         dz = fit[2] * np.tan(np.deg2rad(np.nanmedian(sl_)))
